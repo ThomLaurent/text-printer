@@ -6,7 +6,7 @@
 <?php
 		const FILE_PATH = "./memory.txt";
 		const KEY = "song";
-		const FILTERS = " 16 9,(lyrics, in description),__,_Lyrics, ( Lyrics ), (Lyrics), [Lyrics], (lyrics), [lyrics], (with lyrics), + lyrics, lyrics, + Lyrics, Lyrics, (Audio), - High Definition, - HQ Audio, HD, HQ, (HQ), (HD), (HD - 1080p), [PV] , (clip officiel), (Clip Officiel), [Official Audio], (Official Video), [Official Video], (Official Music Video), Official Music Video, (lyrics in description), (Paroles + Traduction), [Animated video], (official video), (Clip Officiel), (clip officiel), [Official Music Video], (OFFICIAL),(1) ,(2) ,(3) ,(4) ,(5) ,(6) ,(7) ,(8) ,(9) ,(10) , (OFFICIAL MUSIC VIDEO),［PV］";
+		const FILTERS = " 16 9,(lyrics, in description),__,_Lyrics, ( Lyrics ), (Lyrics), [Lyrics], (lyrics), [lyrics], (with lyrics), + lyrics, lyrics, + Lyrics, Lyrics, W/Lyrics, (Audio), - High Definition, - HQ Audio, HD, HQ, (HQ), (HD), (HD - 1080p), [PV] , (clip officiel), (Clip Officiel), [Official Audio], (Official Video), [Official Video], (Official Music Video), Official Music Video, (lyrics in description), (Paroles + Traduction), [Animated video], (official video), (Clip Officiel), (clip officiel), [Official Music Video], (OFFICIAL),(1) ,(2) ,(3) ,(4) ,(5) ,(6) ,(7) ,(8) ,(9) ,(10) , (OFFICIAL MUSIC VIDEO),［PV］, [Studio Version]cowbell link in description,";
 
 		$size = '36px';
 
