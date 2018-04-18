@@ -1,0 +1,15 @@
+﻿* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: transparent;
+}
+
+p {
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 36px;
+	color: #cfcfcf;
+}
