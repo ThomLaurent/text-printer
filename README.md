@@ -4,12 +4,17 @@ JS to add on the target media website :
 ```js
 (function() {
     
-    const URL = "YOUR_SERVER";
+    const URL = "http://YOUR_APP.com";
     const KEY = "song";
     
-    previousSongTitle = '';
+    previousSongTitle = "";
     
     setInterval(SendSongName, 3000);
+    setInterval(Reset, 59000);
+    
+    function Reset () {
+        previousSongTitle = "";
+    }
     
     function SendSongName () {
         var songTitle = document.title;
@@ -20,14 +25,15 @@ JS to add on the target media website :
         SendTitle(URL, KEY, songTitle);
     }
     
-    function SendTitle(url, key, value)
+    function SendTitle(url, key, title)
     {
         var xmlHttp = new XMLHttpRequest();
-        var fullUrl = url + '/?' + key + '=' + encodeURI(value);
-        xmlHttp.open("GET", fullUrl, false); // false for synchronous request
+        var fullUrl = url + '/?' + key + '=' + encodeURI(title);
+        xmlHttp.open("GET", fullUrl, false);
         xmlHttp.send( null );
         
-        console.log("Song Title sent : " + value);
+        console.log("Song Title sent : " + title);
+        return xmlHttp.status == 200;
     }
 })();
 ```
