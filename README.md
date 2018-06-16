@@ -1,5 +1,4 @@
 # text-printer
-For my use only
 
 JS to add on the target media website :
 ```js
