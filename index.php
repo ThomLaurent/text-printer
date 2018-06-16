@@ -17,11 +17,6 @@
 			file_put_contents(FILE_PATH, htmlspecialchars($title));
 		}
 		
-		// Set Font Size
-		if (isset($_GET['size'])) {
-			$size = $_GET['size'] . 'px';
-		}
-		
 		$size = (isset($_GET['size']) ? $_GET['size'] : '36') . 'px';
 		$align = isset($_GET['align']) ? $_GET['align'] : 'left';
 		$color = isset($_GET['color']) ? $_GET['color'] : '#cfcfcf';
