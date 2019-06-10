@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="/style.css">
+		<meta http-equiv="Cache-Control" content="no-cache">
 	</head>
 <?php
 		const FILE_PATH = "./memory.txt";
